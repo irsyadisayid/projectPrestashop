@@ -1,0 +1,7 @@
+[12-Jan-2021 01:41:40 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/insd8686/public_html/irsyadisayid/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:27
+Stack trace:
+#0 /home/insd8686/public_html/irsyadisayid/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(27): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home/insd8686/public_html/irsyadisayid/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOMySql/Driver.php(25): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'root', '', Array)
+#2 /home/insd8686/public_html/irsyadisayid/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(356): Doctrine\DBAL\Driver\PDOMySql\Driver->connect(Array, 'root', '', Array)
+#3 /home/insd8686/public_html/irsyadisayid/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(422): Doctrine\DBAL\Connection->connect()
+#4 /home/insd8686/public_html/irsyadisayid/vendor/doctrine/dbal/lib/Doctrine/DBAL/Connection.php(382): Do in /home/insd8686/public_html/irsyadisayid/vendor/doctrine/doctrine-bundle/ConnectionFactory.php on line 79

@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => 'trikaya.iixcp.rumahweb.com',
+    'database_port' => '',
+    'database_name' => 'insd8686_umaracing',
+    'database_user' => 'insd8686_sayid',
+    'database_password' => 'sakato879',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'WjIiKd43Hu55nU15oIHjifHn2G0g9S31Ui0qTWgbthPiHTtrHU2Y9sb1C5ZCUZ42',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2021-01-10',
+    'locale' => 'id-ID',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'PUIih3HLdjKAyfTYNWkxCGUgvXn9BZ2FPYDTgk7maOIWLMpd4AStRuxL1Rif33bL',
+    'cookie_iv' => '0EPJMQ3z8c4b39QmsUqyiABoez16x7LO',
+    'new_cookie_key' => 'def0000090d3fcb57d1833beb762efd3cd26d6638b646c51f6e687deeda4a478582af9482057ccf79a525d0031ba8573871c66e7a2ad6416f5446151691beb50c6b78845',
+  ),
+);
